@@ -1,6 +1,14 @@
 这是很酷一个可以展开，缩小的Viewpager。
 
 
+![image](https://github.com/githubwing/ExpandableViewpager/raw/master/img.gif)
+
+
+
+
+## [下载体验](https://github.com/githubwing/ExpandableViewpager/raw/master/app-debug.apk)
+
+
 ## 使用
 
 在gradle添加依赖
