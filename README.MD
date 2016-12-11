@@ -1,5 +1,7 @@
 这是很酷一个可以展开，缩小的Viewpager。
 
+[![](https://jitpack.io/v/githubwing/ExpandableViewpager.svg)](https://jitpack.io/#githubwing/ExpandableViewpager)
+
 
 ![image](https://github.com/githubwing/ExpandableViewpager/raw/master/img.gif)
 
@@ -36,9 +38,12 @@ ExpandViewPager提供了Viewpager常用方法以外。还有几个额外的方�
 
 ```
 
-//设置背景布局
+ //设置背景布局
  mViewpager.setBackgroundView(int resId);
-
+ 
+ //设置最小高度
+ mViewpager.setMinHeight(int height);
+ 
 //设置展开关闭监听器
 mViewpager.setOnStateChangedListener(OnStateChangedListener listener);
 
